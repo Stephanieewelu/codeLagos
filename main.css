@@ -1,0 +1,62 @@
+ul, h1, {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+ul#main-nav {
+    padding: 2%;
+    align-items: center;
+}
+li{ margin: 0%;
+    padding:0%;
+    text-align: center;
+    display: inline-block;
+    padding-right: 20px;
+    min-width: 140px;
+    max-width: 760px;
+    color: rgb(255, 205, 247);
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-image: url("IMG-20181117-WA0012.jpg")
+}
+
+header{
+    background-color:rgb(107, 20, 220);
+    text-align: center;
+}
+.container.banner1{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.container.h2{
+    text-shadow: 1px 2px 2px palevioletred;
+}
+
+li a{
+    text-decoration:underline;
+    color:rgb(166, 190, 58);
+    padding: 30px;
+}
+
+li a:hover{
+    color:rgb(0, 41, 128);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container.p{
+    margin:0 auto;
+    background-color: turquoise;
+}
+@media screen and (max-width: 760px){/*styles for some mobile deices*/}
+
+
+
+@media screen and (min-width: 400px){/*styles for some mobile devices*/}
